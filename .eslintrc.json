@@ -42,7 +42,6 @@
               {
                 "sourceTag": "type:feature",
                 "onlyDependOnLibsWithTags": [
-                  "type:smart-components",
                   "type:ui",
                   "type:data-access",
                   "type:util",
@@ -50,23 +49,11 @@
                 ]
               },
               {
-                "sourceTag": "type:smart-components",
-                "onlyDependOnLibsWithTags": [
-                  "type:smart-components",
-                  "type:ui",
-                  "type:data-access",
-                  "type:util",
-                  "type:domain"
-                ],
-                "bannedExternalImports": ["*router*"]
-              },
-              {
                 "sourceTag": "type:ui",
                 "onlyDependOnLibsWithTags": [
                   "type:ui",
                   "type:util",
                   "type:domain",
-                  "type:smart-components"
                 ]
               },
               {
