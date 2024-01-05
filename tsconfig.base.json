@@ -14,7 +14,66 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ddd-architecture/banking/accounts/data-lib": [
+        "libs/banking/accounts/data-lib/src/index.ts"
+      ],
+      "@ddd-architecture/banking/accounts/domain-lib": [
+        "libs/banking/accounts/domain-lib/src/index.ts"
+      ],
+      "@ddd-architecture/banking/accounts/feature-view-account-lib": [
+        "libs/banking/accounts/feature-view-account-lib/src/index.ts"
+      ],
+      "@ddd-architecture/banking/accounts/ui-lib": [
+        "libs/banking/accounts/ui-lib/src/index.ts"
+      ],
+      "@ddd-architecture/banking/accounts/util-lib": [
+        "libs/banking/accounts/util-lib/src/index.ts"
+      ],
+      "@ddd-architecture/shared/data-lib": [
+        "libs/shared/data-lib/src/index.ts"
+      ],
+      "@ddd-architecture/shared/domain-lib": [
+        "libs/shared/domain-lib/src/index.ts"
+      ],
+      "@ddd-architecture/shared/ui-lib": ["libs/shared/ui-lib/src/index.ts"],
+      "@ddd-architecture/shared/util-lib": [
+        "libs/shared/util-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/accounts/data-lib": [
+        "libs/staff-portal/accounts/data-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/accounts/domain-lib": [
+        "libs/staff-portal/accounts/domain-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/accounts/feature-edit-account-lib": [
+        "libs/staff-portal/accounts/feature-edit-account-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/accounts/feature-transfer-account-lib": [
+        "libs/staff-portal/accounts/feature-transfer-account-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/accounts/ui-lib": [
+        "libs/staff-portal/accounts/ui-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/accounts/util-lib": [
+        "libs/staff-portal/accounts/util-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/transactions/data-lib": [
+        "libs/staff-portal/transactions/data-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/transactions/domain-lib": [
+        "libs/staff-portal/transactions/domain-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/transactions/feature-edit-transaction-lib": [
+        "libs/staff-portal/transactions/feature-edit-transaction-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/transactions/ui-lib": [
+        "libs/staff-portal/transactions/ui-lib/src/index.ts"
+      ],
+      "@ddd-architecture/staff-portal/transactions/util-lib": [
+        "libs/staff-portal/transactions/util-lib/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
