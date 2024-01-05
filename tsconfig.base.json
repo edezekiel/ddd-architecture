@@ -14,7 +14,47 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ddd-architecture/accounts/data-lib": [
+        "libs/accounts/data-lib/src/index.ts"
+      ],
+      "@ddd-architecture/accounts/domain-lib": [
+        "libs/accounts/domain-lib/src/index.ts"
+      ],
+      "@ddd-architecture/accounts/feature-open-account-lib": [
+        "libs/accounts/feature-open-account-lib/src/index.ts"
+      ],
+      "@ddd-architecture/accounts/feature-view-account-lib": [
+        "libs/accounts/feature-view-account-lib/src/index.ts"
+      ],
+      "@ddd-architecture/accounts/smart-components-lib": [
+        "libs/accounts/smart-components-lib/src/index.ts"
+      ],
+      "@ddd-architecture/accounts/ui-lib": [
+        "libs/accounts/ui-lib/src/index.ts"
+      ],
+      "@ddd-architecture/accounts/util-lib": [
+        "libs/accounts/util-lib/src/index.ts"
+      ],
+      "@ddd-architecture/transactions/data-lib": [
+        "libs/transactions/data-lib/src/index.ts"
+      ],
+      "@ddd-architecture/transactions/domain-lib": [
+        "libs/transactions/domain-lib/src/index.ts"
+      ],
+      "@ddd-architecture/transactions/feature-new-transaction-lib": [
+        "libs/transactions/feature-new-transaction-lib/src/index.ts"
+      ],
+      "@ddd-architecture/transactions/smart-components-lib": [
+        "libs/transactions/smart-components-lib/src/index.ts"
+      ],
+      "@ddd-architecture/transactions/ui-lib": [
+        "libs/transactions/ui-lib/src/index.ts"
+      ],
+      "@ddd-architecture/transactions/util-lib": [
+        "libs/transactions/util-lib/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
